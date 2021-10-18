@@ -1,0 +1,152 @@
+html{
+    width: 100vw;
+    height: auto;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    background-image: linear-gradient(
+          rgba(245, 244, 240, 0),
+          rgba(197, 187, 92, 1)
+        );
+  }
+  .Parent{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+  }
+  .Parent img{
+    width: 25vw;
+    height: auto;
+  }
+  .Parent2{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .child1{
+    width: 35vw;
+    height: 95vh;
+  }
+  .child1 img{
+    height: auto;
+    width: 30vw;
+  }
+  .child2{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 2vw 0 2vw;
+    height: 95vh;
+    box-sizing: border-box;
+    overflow-y: scroll;
+  }
+  .child2 div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+  }
+  .child2 img{
+    padding-left: auto;
+    padding-right: auto;
+    width: 85%;
+    height: auto;
+  }
+  .Parent3{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin: 2vh 0 2vh 0;
+    box-sizing: border-box;
+  
+  }
+  .Parent3 div{
+    width: 100%;
+    height: auto;
+  }
+  .Parent3 img{
+    width: 90%;
+    height: auto;
+  }
+  .center{
+    text-align: center;
+  
+  }
+  .linebreak{
+    height: 1px;
+    margin: 0px;
+    background-color: red;
+    margin: 0 0 2vh 0;
+  }
+  .Footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 15vh;
+    margin-top: 1vh;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+  }
+  .Footer div{
+    color: white;
+    text-align: center;
+    width: 30%;
+  }
+  .Footer img{
+    width: 20px;
+    height: 20px;
+  
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  div{
+    font-family: serif;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  @media(max-width: 600px)
+  {
+    .Parent img{
+      width: 90vw;
+    }
+    .Parent2{
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: auto;
+      box-sizing: border-box;
+    }
+    .child1{
+      width: 100vw;
+      height: auto;
+    }
+    .child1 img{
+      width: 90vw;
+      height: auto;
+      margin: 2vw;
+    }
+    .child2{
+      width: 100vw;
+      height: auto;
+      margin: 0;
+    }
+    .Footer{
+      flex-direction: column;
+      width: 100vw;
+      height: auto;
+    }
+    .Footer div{
+      width: 90%;
+    }
+  }
+  
